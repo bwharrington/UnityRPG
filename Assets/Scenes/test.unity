@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &79810317 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 866683423, guid: 73bac6af1cdaebf4c818b4d90fee0204, type: 3}
+  m_PrefabInstance: {fileID: 5984286815545454872}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80a09453d51e40242b498b7b21f5a457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1432723639
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,6 +332,7 @@ MonoBehaviour:
   theRB: {fileID: 1615719084}
   moveSpeed: 10
   myAnim: {fileID: 1615719087}
+  areaTransitionName: 
 --- !u!95 &1615719087
 Animator:
   serializedVersion: 4
@@ -516,6 +528,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 866683422, guid: 73bac6af1cdaebf4c818b4d90fee0204, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 866683422, guid: 73bac6af1cdaebf4c818b4d90fee0204, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21
+      objectReference: {fileID: 0}
     - target: {fileID: 5984286815860403590, guid: 73bac6af1cdaebf4c818b4d90fee0204, type: 3}
       propertyPath: m_Name
       value: Area Exit
@@ -526,11 +546,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5984286815860403640, guid: 73bac6af1cdaebf4c818b4d90fee0204, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.2
+      value: 11.65
       objectReference: {fileID: 0}
     - target: {fileID: 5984286815860403640, guid: 73bac6af1cdaebf4c818b4d90fee0204, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.59
+      value: 0.42
       objectReference: {fileID: 0}
     - target: {fileID: 5984286815860403640, guid: 73bac6af1cdaebf4c818b4d90fee0204, type: 3}
       propertyPath: m_LocalPosition.z
@@ -563,6 +583,18 @@ PrefabInstance:
     - target: {fileID: 5984286815860403640, guid: 73bac6af1cdaebf4c818b4d90fee0204, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984286815860403641, guid: 73bac6af1cdaebf4c818b4d90fee0204, type: 3}
+      propertyPath: areaToLoad
+      value: test2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984286815860403641, guid: 73bac6af1cdaebf4c818b4d90fee0204, type: 3}
+      propertyPath: theEntrance
+      value: 
+      objectReference: {fileID: 79810317}
+    - target: {fileID: 5984286815860403641, guid: 73bac6af1cdaebf4c818b4d90fee0204, type: 3}
+      propertyPath: areaTransitionName
+      value: Countryside-1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73bac6af1cdaebf4c818b4d90fee0204, type: 3}
